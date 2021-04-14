@@ -9,3 +9,44 @@ document.write("<p>Variable must begin with letter,$ or_ for Example<span><b>$na
 document.write("<p>Variable names are case<span><b>  sensitive</b></span><p>")
 document.write("<p>Variable names should not be JS<span><b>  keyword</b></span><p>")
 // var 1="pakistan", a block="turkey",-value="saudi arabia" alert="palestine";
+var a=prompt("Enter first Number:",);
+var a= parseInt(a);
+var b=prompt("Enter Second Number:",);
+var b= parseInt(b);
+var c=a+b;
+document.write("<p>The Sum of Entered Numbers is</p>", +c);
+var c=a-b;
+document.write("<p>The Difference of Entered Numbers is</p>" , +c);
+var c=a/b;
+document.write("<p>The Division of Entered Numbers is</p>" , +c);
+var c=a%b;
+document.write("<p>The Modulus n of Entered Numbers is</p>" , +c);
+var d;
+document.write("</br>Value after variable declation is:",d);
+d=15;
+document.write("</br>Initial Value after variable initialization is:",d);
+++d;
+document.write("</br>after increament value is:",d);
+d=d+7;
+document.write("</br>Value after addition of 7 is:",d);
+--d;
+document.write("</br>after decreament value is:",d);
+d=d%3;
+document.write("</br>remainder after division by 3 value is:",d);
+var e=prompt("How many tickets you want to buy @600Rs/ticket:");
+e=parseInt(e);
+var f=e*600;
+document.write("</br>Total cost to buy"  ,e,"  tickets to a movie is:",f);
+var g=prompt("Enter a number to display its table");
+g=parseInt(g);
+var h;
+var i;
+document.write("<br/>Table of",g)
+for (h= 0; h< 11; h++) {i=g*h;
+    document.write("<br/>",g,"*",h,"=",i);}
+
+   
+    
+
+
+
