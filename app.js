@@ -41,9 +41,23 @@ var g=prompt("Enter a number to display its table");
 g=parseInt(g);
 var h;
 var i;
-document.write("<br/>Table of",g)
+document.write("<br/>Table of \n",g)
 for (h= 0; h< 11; h++) {i=g*h;
     document.write("<br/>",g,"*",h,"=",i);}
+
+var j,k,l,m;
+var j=prompt("Enter the Temperature in degree Celcius:",);
+var j= parseInt(j);
+document.write("<br/>Temperature in <sup>o</sup>C is:",j);
+k=((9/5*j))+32;
+document.write("<br/>Temperature in <sup>o</sup>F is: ",k);
+var l=prompt("Enter the Temperature in Fahrenheit:",);
+var l= parseInt(l);
+document.write("<br/>Temperature in <sup>o</sup>F is:",l);
+m=(l-32)*(5/9);
+document.write("<br/>Temperature in <sup>o</sup>C is: ",m);
+
+
 
    
     
