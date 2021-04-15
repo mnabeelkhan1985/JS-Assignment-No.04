@@ -36,7 +36,7 @@ document.write("</br>remainder after division by 3 value is:",d);
 var e=prompt("How many tickets you want to buy @600Rs/ticket:");
 e=parseInt(e);
 var f=e*600;
-document.write("</br>Total cost to buy"  ,e,"  tickets to a movie is:",f);
+document.write("</br>Total cost to buy<&nbpsp>",e,"  tickets to a movie is:",f);
 var g=prompt("Enter a number to display its table");
 g=parseInt(g);
 var h;
@@ -56,6 +56,17 @@ var l= parseInt(l);
 document.write("<br/>Temperature in <sup>o</sup>F is:",l);
 m=(l-32)*(5/9);
 document.write("<br/>Temperature in <sup>o</sup>C is: ",m);
+document.write("<br/><h1>Shopping Cart</h1>");
+var n,o,p;
+n=650;o=100;
+document.write("<br/>Price of Item1 is",n,"Rs.");
+document.write("<br/>Price of Item1 is",o,"Rs.");
+document.write("<br/>Ordered Quantity of Item1 is \n",2);
+document.write("<br/>Ordered Quantity of Item1 is\n ",7);
+document.write("<br/>Shipping Charges Rs.",100);
+p=(n*2)+(o*7)+100;
+document.write("<br/><br/><br/>Total Cost of your order is",p);
+
 
 
 
